@@ -3,6 +3,7 @@ module gsheet-to-telegram
 go 1.25.3
 
 require (
+	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
 	github.com/google/uuid v1.6.0
 	golang.org/x/oauth2 v0.33.0
 	google.golang.org/api v0.257.0
